@@ -10,42 +10,49 @@ package courseplannerproject;
  */
 public class Course {
 
-    private String CourseName;
-    private String CourseType;
-    private String CourseLevel;
-    private String CourseGrade;
+    private String courseName;
+    private String courseType;
+    private String courseLevel;
+    private String courseGrade;
     
     public Course(String cn, String ct, String cl, String cg)
     {
-        CourseName = cn;
-        CourseType = ct;
-        CourseLevel = cl;
-        CourseGrade = cg;
+        courseName = cn;
+        courseType = ct;
+        courseLevel = cl;
+        courseGrade = cg;
     }
                
     public String getCourseName(){
-        return CourseName;
+        return courseName;
     }
     public void setCourseName(String CourseName) {
-        this.CourseName = CourseName;
+        this.courseName = CourseName;
     }
     public String getCourseType(){
-        return CourseType;
+        return courseType;
     }
     public void setCourseType(String CourseType) {
-        this.CourseType = CourseType;
+        this.courseType = CourseType;
     }
     public String getCourseLevel(){
-        return CourseLevel;
+        return courseLevel;
     }
     public void setCourseLevel(String CourseLevel){
-        this.CourseLevel = CourseLevel;
+        this.courseLevel = CourseLevel;
     }
     public String getCourseGrade(){
-        return CourseGrade;
+        return courseGrade;
     }
     public void setCourseGrade(String CourseGrade) {
-        this.CourseGrade = CourseGrade;
+        this.courseGrade = CourseGrade;
+    }
+    @Override
+    public String toString()
+    {
+        String s = "";
+        s += ("Course Name: "+courseName+" Course Level: "+courseLevel+" Course Type: "+courseType+" Course Grade: "+courseGrade+"\n");
+        return s;
     }
         
         

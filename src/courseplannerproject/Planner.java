@@ -8,6 +8,11 @@ import java.util.ArrayList;
 public class Planner {
     
     private ArrayList<Course> Plan = new ArrayList<>();
+    
+    public Planner()
+    {
+    
+    }
 
     public void addCourse(Course c)
     {
@@ -17,5 +22,18 @@ public class Planner {
     {
         Plan.add(c);
     }
+    public void display()
+    {
+        for(Course c : Plan)
+	System.out.println(c);
+    }
+    @Override
+    public String toString()
+        {
+            String s = "";
+            for (Course courses: Plan)
+                s += courses + "\n";
+            return s;
+        }
     
 }

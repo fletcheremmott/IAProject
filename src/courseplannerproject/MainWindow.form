@@ -62,11 +62,11 @@
                       <Group type="102" alignment="1" attributes="0">
                           <Component id="courseNameTextField1" min="-2" pref="189" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                          <Component id="courseLeveComboBox1" min="-2" max="-2" attributes="0"/>
+                          <Component id="courseLevelComboBox1" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Component id="courseTypeComboBox1" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="gradeComboBox1" min="-2" max="-2" attributes="0"/>
+                          <Component id="courseGradeComboBox1" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Component id="addButton1" min="-2" max="-2" attributes="0"/>
                       </Group>
@@ -91,7 +91,7 @@
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="gradeLabel" min="-2" max="-2" attributes="0"/>
-                              <Component id="gradeComboBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseGradeComboBox" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Component id="addButton" min="-2" max="-2" attributes="0"/>
@@ -120,15 +120,15 @@
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="courseLevelComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="courseNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="gradeComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="courseGradeComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="addButton" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="courseTypeComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="courseLeveComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="courseLevelComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="courseNameTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="gradeComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="courseGradeComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="courseTypeComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="addButton1" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
@@ -169,7 +169,7 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="courseNameTextFieldActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JComboBox" name="gradeComboBox">
+        <Component class="javax.swing.JComboBox" name="courseGradeComboBox">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="14">
@@ -191,7 +191,7 @@
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="gradeComboBoxActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="courseGradeComboBoxActionPerformed"/>
           </Events>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
@@ -207,7 +207,7 @@
             <Property name="text" type="java.lang.String" value="Grade"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JComboBox" name="gradeComboBox1">
+        <Component class="javax.swing.JComboBox" name="courseGradeComboBox1">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="14">
@@ -229,13 +229,13 @@
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="gradeComboBox1ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="courseGradeComboBox1ActionPerformed"/>
           </Events>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
           </AuxValues>
         </Component>
-        <Component class="javax.swing.JComboBox" name="courseLeveComboBox1">
+        <Component class="javax.swing.JComboBox" name="courseLevelComboBox1">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="5">
@@ -248,7 +248,7 @@
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="courseLeveComboBox1ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="courseLevelComboBox1ActionPerformed"/>
           </Events>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
@@ -339,33 +339,32 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
-                  <EmptySpace pref="555" max="32767" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="1" attributes="0">
-                          <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="courseListLabel" alignment="1" min="-2" pref="248" max="-2" attributes="0"/>
-                              <Component id="courseListTextArea" min="-2" pref="248" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="-2" pref="470" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="1" attributes="0">
-                          <Component id="previousButton" min="-2" pref="135" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="523" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
+                  <EmptySpace pref="126" max="32767" attributes="0"/>
+                  <Component id="courseListTextArea" min="-2" pref="773" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                  <Component id="previousButton" min="-2" pref="135" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="212" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                  <Component id="courseListLabel" min="-2" pref="248" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
                   <Component id="courseListLabel" min="-2" pref="16" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="courseListTextArea" min="-2" pref="335" max="-2" attributes="0"/>
-                  <EmptySpace pref="100" max="32767" attributes="0"/>
+                  <EmptySpace pref="267" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
                   <Component id="previousButton" min="-2" pref="42" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="301" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
