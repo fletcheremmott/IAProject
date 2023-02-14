@@ -18,9 +18,17 @@ public class Planner {
     {
         Plan.add(c);
     }
-    public void removeCourse(Course c)
+    public void removeCourse(String n, String t, String l, String g)
     {
-        Plan.add(c);
+        for (int i = 0; i < Plan.size(); i++)
+            {
+                Course c = Plan.get(i);
+                if(c.getCourseName().equals(n) && c.getCourseType().equals(t) && c.getCourseLevel().equals(l) && c.getCourseGrade().equals(g))
+                {
+                    Plan.remove(c);
+                }
+            }
+            
     }
     public void display()
     {
