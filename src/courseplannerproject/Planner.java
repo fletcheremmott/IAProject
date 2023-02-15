@@ -11,9 +11,7 @@ public class Planner {
     
     public Planner()
     {
-    
     }
-
     public void addCourse(Course c)
     {
         Plan.add(c);
@@ -28,7 +26,6 @@ public class Planner {
                     Plan.remove(c);
                 }
             }
-            
     }
     public void display()
     {
