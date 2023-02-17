@@ -46,6 +46,7 @@ public class MainWindow extends javax.swing.JFrame {
         addButton1 = new javax.swing.JButton();
         nextButton = new javax.swing.JButton();
         clearButton = new javax.swing.JButton();
+        clearButton1 = new javax.swing.JButton();
         courseListPanel = new javax.swing.JPanel();
         courseListLabel = new javax.swing.JLabel();
         courseListTextArea = new javax.swing.JTextArea();
@@ -138,6 +139,13 @@ public class MainWindow extends javax.swing.JFrame {
             }
         });
 
+        clearButton1.setText("Clear");
+        clearButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                clearButton1ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout addCoursePanelLayout = new javax.swing.GroupLayout(addCoursePanel);
         addCoursePanel.setLayout(addCoursePanelLayout);
         addCoursePanelLayout.setHorizontalGroup(
@@ -176,7 +184,9 @@ public class MainWindow extends javax.swing.JFrame {
                         .addGap(18, 18, 18)
                         .addComponent(addButton)))
                 .addGap(18, 18, 18)
-                .addComponent(clearButton)
+                .addGroup(addCoursePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(clearButton)
+                    .addComponent(clearButton1))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, addCoursePanelLayout.createSequentialGroup()
                 .addContainerGap(467, Short.MAX_VALUE)
@@ -206,7 +216,8 @@ public class MainWindow extends javax.swing.JFrame {
                     .addComponent(courseNameTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(courseGradeComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(courseTypeComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(addButton1))
+                    .addComponent(addButton1)
+                    .addComponent(clearButton1))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 417, Short.MAX_VALUE)
                 .addComponent(nextButton, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
@@ -354,6 +365,20 @@ public class MainWindow extends javax.swing.JFrame {
         courseListTextArea.setText(myPlan.toString());
     }//GEN-LAST:event_clearButtonActionPerformed
 
+    private void clearButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton1ActionPerformed
+        // TODO add your handling code here:
+        String name = courseNameTextField1.getText();
+        courseNameTextField1.setText("");
+        String level = (String) courseLevelComboBox1.getSelectedItem();
+        courseLevelComboBox1.setSelectedIndex(0);
+        String type = (String) courseTypeComboBox1.getSelectedItem();
+        courseTypeComboBox1.setSelectedIndex(0);
+        String grade = (String) courseGradeComboBox1.getSelectedItem();
+        courseGradeComboBox1.setSelectedIndex(0);
+        myPlan.removeCourse(name, level, type, grade);
+        courseListTextArea.setText(myPlan.toString());
+    }//GEN-LAST:event_clearButton1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -394,6 +419,7 @@ public class MainWindow extends javax.swing.JFrame {
     private javax.swing.JButton addButton1;
     private javax.swing.JPanel addCoursePanel;
     private javax.swing.JButton clearButton;
+    private javax.swing.JButton clearButton1;
     private javax.swing.JComboBox<String> courseGradeComboBox;
     private javax.swing.JComboBox<String> courseGradeComboBox1;
     private javax.swing.JComboBox<String> courseLevelComboBox;

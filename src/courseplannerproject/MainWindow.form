@@ -98,7 +98,10 @@
                       </Group>
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="clearButton" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="clearButton" min="-2" max="-2" attributes="0"/>
+                      <Component id="clearButton1" min="-2" max="-2" attributes="0"/>
+                  </Group>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
               <Group type="102" alignment="1" attributes="0">
@@ -134,6 +137,7 @@
                       <Component id="courseGradeComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="courseTypeComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="addButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="clearButton1" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace pref="417" max="32767" attributes="0"/>
                   <Component id="nextButton" min="-2" pref="63" max="-2" attributes="0"/>
@@ -340,6 +344,14 @@
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clearButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="clearButton1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Clear"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clearButton1ActionPerformed"/>
           </Events>
         </Component>
       </SubComponents>
