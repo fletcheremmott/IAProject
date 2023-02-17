@@ -15,11 +15,11 @@ public class Course {
     private String courseLevel;
     private String courseGrade;
     
-    public Course(String cn, String ct, String cl, String cg)
+    public Course(String cn, String cl, String ct, String cg)
     {
         courseName = cn;
-        courseType = ct;
         courseLevel = cl;
+        courseType = ct;
         courseGrade = cg;
     }
                

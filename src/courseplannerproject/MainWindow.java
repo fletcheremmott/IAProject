@@ -51,6 +51,9 @@ public class MainWindow extends javax.swing.JFrame {
         courseListLabel = new javax.swing.JLabel();
         courseListTextArea = new javax.swing.JTextArea();
         previousButton = new javax.swing.JButton();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        courseTallyTextArea = new javax.swing.JTextArea();
+        courseTallyLabel = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -235,33 +238,49 @@ public class MainWindow extends javax.swing.JFrame {
             }
         });
 
+        courseTallyTextArea.setColumns(20);
+        courseTallyTextArea.setRows(5);
+        jScrollPane1.setViewportView(courseTallyTextArea);
+
+        courseTallyLabel.setText("Course Tally");
+
         javax.swing.GroupLayout courseListPanelLayout = new javax.swing.GroupLayout(courseListPanel);
         courseListPanel.setLayout(courseListPanelLayout);
         courseListPanelLayout.setHorizontalGroup(
             courseListPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(courseListPanelLayout.createSequentialGroup()
-                .addContainerGap(126, Short.MAX_VALUE)
-                .addComponent(courseListTextArea, javax.swing.GroupLayout.PREFERRED_SIZE, 773, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(27, 27, 27)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, courseListPanelLayout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(previousButton, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(212, 212, 212))
-            .addGroup(courseListPanelLayout.createSequentialGroup()
-                .addGap(15, 15, 15)
-                .addComponent(courseListLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 248, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(319, 319, 319))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, courseListPanelLayout.createSequentialGroup()
+                .addGroup(courseListPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(courseListPanelLayout.createSequentialGroup()
+                        .addContainerGap(126, Short.MAX_VALUE)
+                        .addComponent(courseListTextArea, javax.swing.GroupLayout.PREFERRED_SIZE, 568, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(42, 42, 42))
+                    .addGroup(courseListPanelLayout.createSequentialGroup()
+                        .addGap(15, 15, 15)
+                        .addComponent(courseListLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 248, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                .addGroup(courseListPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(courseTallyLabel)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 497, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(40, 40, 40))
         );
         courseListPanelLayout.setVerticalGroup(
             courseListPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(courseListPanelLayout.createSequentialGroup()
                 .addGap(16, 16, 16)
-                .addComponent(courseListLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(courseListPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(courseListLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(courseTallyLabel))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(courseListPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 341, Short.MAX_VALUE)
+                    .addComponent(courseListTextArea))
                 .addGap(18, 18, 18)
-                .addComponent(courseListTextArea, javax.swing.GroupLayout.PREFERRED_SIZE, 335, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(267, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, courseListPanelLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(previousButton, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(301, 301, 301))
+                .addContainerGap(206, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -323,6 +342,7 @@ public class MainWindow extends javax.swing.JFrame {
         Course newCourse = new Course(courseName, courseLevel, courseType, courseGrade);
         myPlan.addCourse(newCourse);
         courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
 // TODO add your handling code here:
     }//GEN-LAST:event_addButtonActionPerformed
 
@@ -339,6 +359,7 @@ public class MainWindow extends javax.swing.JFrame {
         Course newCourse = new Course(courseName, courseLevel, courseType, courseGrade);
         myPlan.addCourse(newCourse);
         courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
     }//GEN-LAST:event_addButton1ActionPerformed
 
     private void nextButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextButtonActionPerformed
@@ -361,8 +382,9 @@ public class MainWindow extends javax.swing.JFrame {
         courseTypeComboBox.setSelectedIndex(0);
         String grade = (String) courseGradeComboBox.getSelectedItem();
         courseGradeComboBox.setSelectedIndex(0);
-        myPlan.removeCourse(name, level, type, grade);
+        myPlan.removeCourse(name, type, level, grade);
         courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
     }//GEN-LAST:event_clearButtonActionPerformed
 
     private void clearButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton1ActionPerformed
@@ -375,8 +397,9 @@ public class MainWindow extends javax.swing.JFrame {
         courseTypeComboBox1.setSelectedIndex(0);
         String grade = (String) courseGradeComboBox1.getSelectedItem();
         courseGradeComboBox1.setSelectedIndex(0);
-        myPlan.removeCourse(name, level, type, grade);
+        myPlan.removeCourse(name, type, level, grade);
         courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
     }//GEN-LAST:event_clearButton1ActionPerformed
 
     /**
@@ -429,12 +452,15 @@ public class MainWindow extends javax.swing.JFrame {
     private javax.swing.JTextArea courseListTextArea;
     private javax.swing.JTextField courseNameTextField;
     private javax.swing.JTextField courseNameTextField1;
+    private javax.swing.JLabel courseTallyLabel;
+    private javax.swing.JTextArea courseTallyTextArea;
     private javax.swing.JComboBox<String> courseTypeComboBox;
     private javax.swing.JComboBox<String> courseTypeComboBox1;
     private javax.swing.JLabel courseTypeLabel;
     private javax.swing.JLabel courseTypeLabels;
     private javax.swing.JLabel gradeLabel;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JButton nextButton;
     private javax.swing.JButton previousButton;
     // End of variables declaration//GEN-END:variables
