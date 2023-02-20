@@ -51,9 +51,9 @@ public class MainWindow extends javax.swing.JFrame {
         courseListLabel = new javax.swing.JLabel();
         courseListTextArea = new javax.swing.JTextArea();
         previousButton = new javax.swing.JButton();
-        jScrollPane1 = new javax.swing.JScrollPane();
         courseTallyTextArea = new javax.swing.JTextArea();
         courseTallyLabel = new javax.swing.JLabel();
+        courseGPATextArea = new javax.swing.JTextArea();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -240,32 +240,36 @@ public class MainWindow extends javax.swing.JFrame {
 
         courseTallyTextArea.setColumns(20);
         courseTallyTextArea.setRows(5);
-        jScrollPane1.setViewportView(courseTallyTextArea);
 
         courseTallyLabel.setText("Course Tally");
+
+        courseGPATextArea.setColumns(20);
+        courseGPATextArea.setRows(5);
 
         javax.swing.GroupLayout courseListPanelLayout = new javax.swing.GroupLayout(courseListPanel);
         courseListPanel.setLayout(courseListPanelLayout);
         courseListPanelLayout.setHorizontalGroup(
             courseListPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, courseListPanelLayout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(previousButton, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(319, 319, 319))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, courseListPanelLayout.createSequentialGroup()
                 .addGroup(courseListPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(courseListPanelLayout.createSequentialGroup()
-                        .addContainerGap(126, Short.MAX_VALUE)
-                        .addComponent(courseListTextArea, javax.swing.GroupLayout.PREFERRED_SIZE, 568, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(42, 42, 42))
-                    .addGroup(courseListPanelLayout.createSequentialGroup()
                         .addGap(15, 15, 15)
                         .addComponent(courseListLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 248, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, courseListPanelLayout.createSequentialGroup()
+                        .addContainerGap(89, Short.MAX_VALUE)
+                        .addGroup(courseListPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addComponent(courseGPATextArea)
+                            .addComponent(courseListTextArea, javax.swing.GroupLayout.DEFAULT_SIZE, 568, Short.MAX_VALUE))
+                        .addGap(42, 42, 42)))
                 .addGroup(courseListPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(courseTallyLabel)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 497, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(40, 40, 40))
+                    .addComponent(courseTallyTextArea, javax.swing.GroupLayout.PREFERRED_SIZE, 210, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(364, 364, 364))
         );
         courseListPanelLayout.setVerticalGroup(
             courseListPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -276,11 +280,13 @@ public class MainWindow extends javax.swing.JFrame {
                     .addComponent(courseTallyLabel))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(courseListPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 341, Short.MAX_VALUE)
-                    .addComponent(courseListTextArea))
+                    .addComponent(courseListTextArea, javax.swing.GroupLayout.DEFAULT_SIZE, 341, Short.MAX_VALUE)
+                    .addComponent(courseTallyTextArea))
                 .addGap(18, 18, 18)
-                .addComponent(previousButton, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(206, Short.MAX_VALUE))
+                .addGroup(courseListPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(previousButton, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(courseGPATextArea, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(33, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -343,6 +349,7 @@ public class MainWindow extends javax.swing.JFrame {
         myPlan.addCourse(newCourse);
         courseListTextArea.setText(myPlan.toString());
         courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
 // TODO add your handling code here:
     }//GEN-LAST:event_addButtonActionPerformed
 
@@ -360,6 +367,7 @@ public class MainWindow extends javax.swing.JFrame {
         myPlan.addCourse(newCourse);
         courseListTextArea.setText(myPlan.toString());
         courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_addButton1ActionPerformed
 
     private void nextButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextButtonActionPerformed
@@ -385,6 +393,7 @@ public class MainWindow extends javax.swing.JFrame {
         myPlan.removeCourse(name, type, level, grade);
         courseListTextArea.setText(myPlan.toString());
         courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButtonActionPerformed
 
     private void clearButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton1ActionPerformed
@@ -400,6 +409,7 @@ public class MainWindow extends javax.swing.JFrame {
         myPlan.removeCourse(name, type, level, grade);
         courseListTextArea.setText(myPlan.toString());
         courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButton1ActionPerformed
 
     /**
@@ -443,6 +453,7 @@ public class MainWindow extends javax.swing.JFrame {
     private javax.swing.JPanel addCoursePanel;
     private javax.swing.JButton clearButton;
     private javax.swing.JButton clearButton1;
+    private javax.swing.JTextArea courseGPATextArea;
     private javax.swing.JComboBox<String> courseGradeComboBox;
     private javax.swing.JComboBox<String> courseGradeComboBox1;
     private javax.swing.JComboBox<String> courseLevelComboBox;
@@ -460,7 +471,6 @@ public class MainWindow extends javax.swing.JFrame {
     private javax.swing.JLabel courseTypeLabels;
     private javax.swing.JLabel gradeLabel;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JButton nextButton;
     private javax.swing.JButton previousButton;
     // End of variables declaration//GEN-END:variables

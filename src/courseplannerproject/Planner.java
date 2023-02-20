@@ -77,6 +77,55 @@ public class Planner {
         
         return s;
     }
+    public String gpaCalculation()
+    {
+        double gpaCount = 0.0;
+        int courseCount = 0;
+        double weightedCount = 0.0;
+        String s = "";
+        
+        for(Course courses: Plan)
+        {
+        if(courses.getCourseGrade().equals("A+"))
+            gpaCount += 4.3;
+        else if(courses.getCourseGrade().equals("A"))
+            gpaCount += 4.0;
+        else if(courses.getCourseGrade().equals("A-"))
+            gpaCount += 3.7;          
+        else if(courses.getCourseGrade().equals("B+"))
+            gpaCount += 3.3; 
+        else if(courses.getCourseGrade().equals("B"))    
+            gpaCount += 3.0;
+        else if(courses.getCourseGrade().equals("B-"))    
+            gpaCount += 2.7;
+        else if(courses.getCourseGrade().equals("C+"))    
+            gpaCount += 2.3;
+        else if(courses.getCourseGrade().equals("C"))    
+            gpaCount += 2.0;
+        else if(courses.getCourseGrade().equals("C-"))
+            gpaCount += 1.7;
+        else if(courses.getCourseGrade().equals("D+"))    
+            gpaCount += 1.3;
+        else if(courses.getCourseGrade().equals("D"))    
+            gpaCount += 1.0;
+        else if(courses.getCourseGrade().equals("D-"))    
+            gpaCount += 0.7;
+        else if(courses.getCourseGrade().equals("F"))
+            gpaCount += 0.0;
+        if(courses.getCourseLevel().equals("AP") || courses.getCourseLevel().equals("IB") || courses.getCourseLevel().equals("DE"))
+           weightedCount += 1.0;
+        courseCount ++;
+        
+        }
+        weightedCount += gpaCount;
+        gpaCount = gpaCount/courseCount;
+        weightedCount = weightedCount/courseCount;
+        
+        s+= "Unweighted GPA: "+gpaCount+"\n";
+        s+= "Weighted GPA: "+weightedCount+"\n";
+        return s;
+        }
+    
     @Override
     public String toString()
         {
