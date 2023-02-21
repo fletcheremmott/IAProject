@@ -62,9 +62,6 @@ public class Planner {
                     electiveTally++;
             if(courses.getCourseType().equals("Other"))
                     otherTally++;          
-                          
-                
-            
         }
         s += ("Math Courses: "+mathTally+"\n");
         s += ("Science Courses: "+scienceTally+"\n");
@@ -115,7 +112,6 @@ public class Planner {
         if(courses.getCourseLevel().equals("AP") || courses.getCourseLevel().equals("IB") || courses.getCourseLevel().equals("DE"))
            weightedCount += 1.0;
         courseCount ++;
-        
         }
         weightedCount += gpaCount;
         gpaCount = gpaCount/courseCount;
@@ -134,5 +130,4 @@ public class Planner {
                 s += courses + "\n";
             return s;
         }
-    
 }
