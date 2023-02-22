@@ -30,9 +30,9 @@ public class MainWindow extends javax.swing.JFrame {
     private void initComponents() {
 
         addCoursePanel = new javax.swing.JPanel();
+        courseNameTextField = new javax.swing.JTextField();
         courseLevelComboBox = new javax.swing.JComboBox<>();
         courseTypeLabel = new javax.swing.JLabel();
-        courseNameTextField = new javax.swing.JTextField();
         courseGradeComboBox = new javax.swing.JComboBox<>();
         jLabel1 = new javax.swing.JLabel();
         gradeLabel = new javax.swing.JLabel();
@@ -213,6 +213,12 @@ public class MainWindow extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        courseNameTextField.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                courseNameTextFieldActionPerformed(evt);
+            }
+        });
+
         courseLevelComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "", "Regular", "AP", "IB", "DE" }));
         courseLevelComboBox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -221,12 +227,6 @@ public class MainWindow extends javax.swing.JFrame {
         });
 
         courseTypeLabel.setText("Course Level");
-
-        courseNameTextField.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                courseNameTextFieldActionPerformed(evt);
-            }
-        });
 
         courseGradeComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "", "A+", "A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D+", "D", "D-", "F" }));
         courseGradeComboBox.addActionListener(new java.awt.event.ActionListener() {

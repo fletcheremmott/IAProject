@@ -817,6 +817,11 @@
         </DimensionLayout>
       </Layout>
       <SubComponents>
+        <Component class="javax.swing.JTextField" name="courseNameTextField">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="courseNameTextFieldActionPerformed"/>
+          </Events>
+        </Component>
         <Component class="javax.swing.JComboBox" name="courseLevelComboBox">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
@@ -840,11 +845,6 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Course Level"/>
           </Properties>
-        </Component>
-        <Component class="javax.swing.JTextField" name="courseNameTextField">
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="courseNameTextFieldActionPerformed"/>
-          </Events>
         </Component>
         <Component class="javax.swing.JComboBox" name="courseGradeComboBox">
           <Properties>
