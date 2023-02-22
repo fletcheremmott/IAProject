@@ -634,7 +634,6 @@
                                   </Group>
                               </Group>
                           </Group>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="courseLevelComboBox12" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="courseGradeComboBox12" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -809,7 +808,6 @@
                           <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="nextButton" min="-2" pref="63" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
               </Group>

@@ -1784,7 +1784,6 @@ public class MainWindow extends javax.swing.JFrame {
                                     .addComponent(addButton11)
                                     .addComponent(clearButton11)
                                     .addComponent(courseNameTextField11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(addCoursePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(courseLevelComboBox12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(courseGradeComboBox12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1931,7 +1930,6 @@ public class MainWindow extends javax.swing.JFrame {
                             .addComponent(courseGradeComboBox20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(clearButton20))
                         .addGap(6, 6, 6)))
-                .addGap(18, 18, 18)
                 .addComponent(nextButton, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(12, 12, 12))
         );
@@ -2154,11 +2152,33 @@ public class MainWindow extends javax.swing.JFrame {
     }//GEN-LAST:event_addButton3ActionPerformed
 
     private void clearButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton2ActionPerformed
-        // TODO add your handling code here:
+        String name = courseNameTextField2.getText();
+        courseNameTextField2.setText("");
+        String level = (String) courseLevelComboBox2.getSelectedItem();
+        courseLevelComboBox2.setSelectedIndex(0);
+        String type = (String) courseTypeComboBox2.getSelectedItem();
+        courseTypeComboBox2.setSelectedIndex(0);
+        String grade = (String) courseGradeComboBox2.getSelectedItem();
+        courseGradeComboBox2.setSelectedIndex(0);
+        myPlan.removeCourse(name, type, level, grade);
+        courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButton2ActionPerformed
 
     private void clearButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton3ActionPerformed
-        // TODO add your handling code here:
+        String name = courseNameTextField3.getText();
+        courseNameTextField3.setText("");
+        String level = (String) courseLevelComboBox3.getSelectedItem();
+        courseLevelComboBox3.setSelectedIndex(0);
+        String type = (String) courseTypeComboBox3.getSelectedItem();
+        courseTypeComboBox3.setSelectedIndex(0);
+        String grade = (String) courseGradeComboBox3.getSelectedItem();
+        courseGradeComboBox3.setSelectedIndex(0);
+        myPlan.removeCourse(name, type, level, grade);
+        courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButton3ActionPerformed
 
     private void courseLevelComboBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_courseLevelComboBox2ActionPerformed
@@ -2214,11 +2234,33 @@ public class MainWindow extends javax.swing.JFrame {
     }//GEN-LAST:event_addButton5ActionPerformed
 
     private void clearButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton4ActionPerformed
-        // TODO add your handling code here:
+        String name = courseNameTextField4.getText();
+        courseNameTextField4.setText("");
+        String level = (String) courseLevelComboBox4.getSelectedItem();
+        courseLevelComboBox4.setSelectedIndex(0);
+        String type = (String) courseTypeComboBox4.getSelectedItem();
+        courseTypeComboBox4.setSelectedIndex(0);
+        String grade = (String) courseGradeComboBox4.getSelectedItem();
+        courseGradeComboBox4.setSelectedIndex(0);
+        myPlan.removeCourse(name, type, level, grade);
+        courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButton4ActionPerformed
 
     private void clearButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton5ActionPerformed
-        // TODO add your handling code here:
+        String name = courseNameTextField5.getText();
+        courseNameTextField5.setText("");
+        String level = (String) courseLevelComboBox5.getSelectedItem();
+        courseLevelComboBox5.setSelectedIndex(0);
+        String type = (String) courseTypeComboBox5.getSelectedItem();
+        courseTypeComboBox5.setSelectedIndex(0);
+        String grade = (String) courseGradeComboBox5.getSelectedItem();
+        courseGradeComboBox5.setSelectedIndex(0);
+        myPlan.removeCourse(name, type, level, grade);
+        courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButton5ActionPerformed
 
     private void courseLevelComboBox4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_courseLevelComboBox4ActionPerformed
@@ -2274,11 +2316,33 @@ public class MainWindow extends javax.swing.JFrame {
     }//GEN-LAST:event_addButton7ActionPerformed
 
     private void clearButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton6ActionPerformed
-        // TODO add your handling code here:
+        String name = courseNameTextField6.getText();
+        courseNameTextField6.setText("");
+        String level = (String) courseLevelComboBox6.getSelectedItem();
+        courseLevelComboBox6.setSelectedIndex(0);
+        String type = (String) courseTypeComboBox6.getSelectedItem();
+        courseTypeComboBox6.setSelectedIndex(0);
+        String grade = (String) courseGradeComboBox6.getSelectedItem();
+        courseGradeComboBox6.setSelectedIndex(0);
+        myPlan.removeCourse(name, type, level, grade);
+        courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButton6ActionPerformed
 
     private void clearButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton7ActionPerformed
-        // TODO add your handling code here:
+        String name = courseNameTextField7.getText();
+        courseNameTextField7.setText("");
+        String level = (String) courseLevelComboBox7.getSelectedItem();
+        courseLevelComboBox7.setSelectedIndex(0);
+        String type = (String) courseTypeComboBox7.getSelectedItem();
+        courseTypeComboBox7.setSelectedIndex(0);
+        String grade = (String) courseGradeComboBox7.getSelectedItem();
+        courseGradeComboBox7.setSelectedIndex(0);
+        myPlan.removeCourse(name, type, level, grade);
+        courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButton7ActionPerformed
 
     private void courseLevelComboBox6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_courseLevelComboBox6ActionPerformed
@@ -2334,11 +2398,33 @@ public class MainWindow extends javax.swing.JFrame {
     }//GEN-LAST:event_addButton9ActionPerformed
 
     private void clearButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton8ActionPerformed
-        // TODO add your handling code here:
+        String name = courseNameTextField8.getText();
+        courseNameTextField8.setText("");
+        String level = (String) courseLevelComboBox8.getSelectedItem();
+        courseLevelComboBox8.setSelectedIndex(0);
+        String type = (String) courseTypeComboBox8.getSelectedItem();
+        courseTypeComboBox8.setSelectedIndex(0);
+        String grade = (String) courseGradeComboBox8.getSelectedItem();
+        courseGradeComboBox8.setSelectedIndex(0);
+        myPlan.removeCourse(name, type, level, grade);
+        courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButton8ActionPerformed
 
     private void clearButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton9ActionPerformed
-        // TODO add your handling code here:
+        String name = courseNameTextField9.getText();
+        courseNameTextField9.setText("");
+        String level = (String) courseLevelComboBox9.getSelectedItem();
+        courseLevelComboBox9.setSelectedIndex(0);
+        String type = (String) courseTypeComboBox9.getSelectedItem();
+        courseTypeComboBox9.setSelectedIndex(0);
+        String grade = (String) courseGradeComboBox9.getSelectedItem();
+        courseGradeComboBox9.setSelectedIndex(0);
+        myPlan.removeCourse(name, type, level, grade);
+        courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButton9ActionPerformed
 
     private void courseLevelComboBox8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_courseLevelComboBox8ActionPerformed
@@ -2394,11 +2480,33 @@ public class MainWindow extends javax.swing.JFrame {
     }//GEN-LAST:event_addButton11ActionPerformed
 
     private void clearButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton10ActionPerformed
-        // TODO add your handling code here:
+        String name = courseNameTextField10.getText();
+        courseNameTextField10.setText("");
+        String level = (String) courseLevelComboBox10.getSelectedItem();
+        courseLevelComboBox10.setSelectedIndex(0);
+        String type = (String) courseTypeComboBox10.getSelectedItem();
+        courseTypeComboBox10.setSelectedIndex(0);
+        String grade = (String) courseGradeComboBox10.getSelectedItem();
+        courseGradeComboBox10.setSelectedIndex(0);
+        myPlan.removeCourse(name, type, level, grade);
+        courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButton10ActionPerformed
 
     private void clearButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton11ActionPerformed
-        // TODO add your handling code here:
+        String name = courseNameTextField11.getText();
+        courseNameTextField11.setText("");
+        String level = (String) courseLevelComboBox11.getSelectedItem();
+        courseLevelComboBox11.setSelectedIndex(0);
+        String type = (String) courseTypeComboBox11.getSelectedItem();
+        courseTypeComboBox11.setSelectedIndex(0);
+        String grade = (String) courseGradeComboBox11.getSelectedItem();
+        courseGradeComboBox11.setSelectedIndex(0);
+        myPlan.removeCourse(name, type, level, grade);
+        courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButton11ActionPerformed
 
     private void courseLevelComboBox10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_courseLevelComboBox10ActionPerformed
@@ -2422,7 +2530,18 @@ public class MainWindow extends javax.swing.JFrame {
     }//GEN-LAST:event_courseLevelComboBox11ActionPerformed
 
     private void clearButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton12ActionPerformed
-        // TODO add your handling code here:
+        String name = courseNameTextField12.getText();
+        courseNameTextField12.setText("");
+        String level = (String) courseLevelComboBox12.getSelectedItem();
+        courseLevelComboBox12.setSelectedIndex(0);
+        String type = (String) courseTypeComboBox12.getSelectedItem();
+        courseTypeComboBox12.setSelectedIndex(0);
+        String grade = (String) courseGradeComboBox12.getSelectedItem();
+        courseGradeComboBox12.setSelectedIndex(0);
+        myPlan.removeCourse(name, type, level, grade);
+        courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButton12ActionPerformed
 
     private void courseGradeComboBox12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_courseGradeComboBox12ActionPerformed
@@ -2450,7 +2569,18 @@ public class MainWindow extends javax.swing.JFrame {
     }//GEN-LAST:event_addButton12ActionPerformed
 
     private void clearButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton13ActionPerformed
-        // TODO add your handling code here:
+        String name = courseNameTextField13.getText();
+        courseNameTextField13.setText("");
+        String level = (String) courseLevelComboBox13.getSelectedItem();
+        courseLevelComboBox13.setSelectedIndex(0);
+        String type = (String) courseTypeComboBox13.getSelectedItem();
+        courseTypeComboBox13.setSelectedIndex(0);
+        String grade = (String) courseGradeComboBox13.getSelectedItem();
+        courseGradeComboBox13.setSelectedIndex(0);
+        myPlan.removeCourse(name, type, level, grade);
+        courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButton13ActionPerformed
 
     private void courseGradeComboBox13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_courseGradeComboBox13ActionPerformed
@@ -2514,7 +2644,18 @@ public class MainWindow extends javax.swing.JFrame {
     }//GEN-LAST:event_courseGradeComboBox20ActionPerformed
 
     private void clearButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton23ActionPerformed
-        // TODO add your handling code here:
+        String name = courseNameTextField23.getText();
+        courseNameTextField23.setText("");
+        String level = (String) courseLevelComboBox23.getSelectedItem();
+        courseLevelComboBox23.setSelectedIndex(0);
+        String type = (String) courseTypeComboBox23.getSelectedItem();
+        courseTypeComboBox23.setSelectedIndex(0);
+        String grade = (String) courseGradeComboBox23.getSelectedItem();
+        courseGradeComboBox23.setSelectedIndex(0);
+        myPlan.removeCourse(name, type, level, grade);
+        courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButton23ActionPerformed
 
     private void addButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addButton20ActionPerformed
@@ -2582,7 +2723,18 @@ public class MainWindow extends javax.swing.JFrame {
     }//GEN-LAST:event_courseNameTextField22ActionPerformed
 
     private void clearButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton27ActionPerformed
-        // TODO add your handling code here:
+        String name = courseNameTextField27.getText();
+        courseNameTextField27.setText("");
+        String level = (String) courseLevelComboBox27.getSelectedItem();
+        courseLevelComboBox27.setSelectedIndex(0);
+        String type = (String) courseTypeComboBox27.getSelectedItem();
+        courseTypeComboBox27.setSelectedIndex(0);
+        String grade = (String) courseGradeComboBox27.getSelectedItem();
+        courseGradeComboBox27.setSelectedIndex(0);
+        myPlan.removeCourse(name, type, level, grade);
+        courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButton27ActionPerformed
 
     private void courseLevelComboBox22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_courseLevelComboBox22ActionPerformed
@@ -2598,7 +2750,18 @@ public class MainWindow extends javax.swing.JFrame {
     }//GEN-LAST:event_courseLevelComboBox21ActionPerformed
 
     private void clearButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton22ActionPerformed
-        // TODO add your handling code here:
+        String name = courseNameTextField22.getText();
+        courseNameTextField22.setText("");
+        String level = (String) courseLevelComboBox22.getSelectedItem();
+        courseLevelComboBox22.setSelectedIndex(0);
+        String type = (String) courseTypeComboBox22.getSelectedItem();
+        courseTypeComboBox22.setSelectedIndex(0);
+        String grade = (String) courseGradeComboBox22.getSelectedItem();
+        courseGradeComboBox22.setSelectedIndex(0);
+        myPlan.removeCourse(name, type, level, grade);
+        courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButton22ActionPerformed
 
     private void courseLevelComboBox20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_courseLevelComboBox20ActionPerformed
@@ -2614,7 +2777,18 @@ public class MainWindow extends javax.swing.JFrame {
     }//GEN-LAST:event_courseGradeComboBox16ActionPerformed
 
     private void clearButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton26ActionPerformed
-        // TODO add your handling code here:
+        String name = courseNameTextField26.getText();
+        courseNameTextField26.setText("");
+        String level = (String) courseLevelComboBox26.getSelectedItem();
+        courseLevelComboBox26.setSelectedIndex(0);
+        String type = (String) courseTypeComboBox26.getSelectedItem();
+        courseTypeComboBox2.setSelectedIndex(0);
+        String grade = (String) courseGradeComboBox26.getSelectedItem();
+        courseGradeComboBox26.setSelectedIndex(0);
+        myPlan.removeCourse(name, type, level, grade);
+        courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButton26ActionPerformed
 
     private void addButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addButton25ActionPerformed
@@ -2658,7 +2832,18 @@ public class MainWindow extends javax.swing.JFrame {
     }//GEN-LAST:event_courseGradeComboBox25ActionPerformed
 
     private void clearButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton21ActionPerformed
-        // TODO add your handling code here:
+        String name = courseNameTextField21.getText();
+        courseNameTextField21.setText("");
+        String level = (String) courseLevelComboBox21.getSelectedItem();
+        courseLevelComboBox21.setSelectedIndex(0);
+        String type = (String) courseTypeComboBox21.getSelectedItem();
+        courseTypeComboBox21.setSelectedIndex(0);
+        String grade = (String) courseGradeComboBox21.getSelectedItem();
+        courseGradeComboBox21.setSelectedIndex(0);
+        myPlan.removeCourse(name, type, level, grade);
+        courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButton21ActionPerformed
 
     private void courseGradeComboBox24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_courseGradeComboBox24ActionPerformed
@@ -2666,7 +2851,18 @@ public class MainWindow extends javax.swing.JFrame {
     }//GEN-LAST:event_courseGradeComboBox24ActionPerformed
 
     private void clearButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton20ActionPerformed
-        // TODO add your handling code here:
+        String name = courseNameTextField20.getText();
+        courseNameTextField20.setText("");
+        String level = (String) courseLevelComboBox20.getSelectedItem();
+        courseLevelComboBox20.setSelectedIndex(0);
+        String type = (String) courseTypeComboBox20.getSelectedItem();
+        courseTypeComboBox20.setSelectedIndex(0);
+        String grade = (String) courseGradeComboBox20.getSelectedItem();
+        courseGradeComboBox20.setSelectedIndex(0);
+        myPlan.removeCourse(name, type, level, grade);
+        courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButton20ActionPerformed
 
     private void courseNameTextField25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_courseNameTextField25ActionPerformed
@@ -2698,11 +2894,33 @@ public class MainWindow extends javax.swing.JFrame {
     }//GEN-LAST:event_courseTypeComboBox18ActionPerformed
 
     private void clearButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton19ActionPerformed
-        // TODO add your handling code here:
+        String name = courseNameTextField19.getText();
+        courseNameTextField19.setText("");
+        String level = (String) courseLevelComboBox19.getSelectedItem();
+        courseLevelComboBox19.setSelectedIndex(0);
+        String type = (String) courseTypeComboBox19.getSelectedItem();
+        courseTypeComboBox19.setSelectedIndex(0);
+        String grade = (String) courseGradeComboBox19.getSelectedItem();
+        courseGradeComboBox19.setSelectedIndex(0);
+        myPlan.removeCourse(name, type, level, grade);
+        courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButton19ActionPerformed
 
     private void clearButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton18ActionPerformed
-        // TODO add your handling code here:
+        String name = courseNameTextField18.getText();
+        courseNameTextField18.setText("");
+        String level = (String) courseLevelComboBox18.getSelectedItem();
+        courseLevelComboBox18.setSelectedIndex(0);
+        String type = (String) courseTypeComboBox18.getSelectedItem();
+        courseTypeComboBox18.setSelectedIndex(0);
+        String grade = (String) courseGradeComboBox18.getSelectedItem();
+        courseGradeComboBox18.setSelectedIndex(0);
+        myPlan.removeCourse(name, type, level, grade);
+        courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButton18ActionPerformed
 
     private void addButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addButton18ActionPerformed
@@ -2774,11 +2992,33 @@ public class MainWindow extends javax.swing.JFrame {
     }//GEN-LAST:event_courseLevelComboBox16ActionPerformed
 
     private void clearButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton17ActionPerformed
-        // TODO add your handling code here:
+        String name = courseNameTextField17.getText();
+        courseNameTextField17.setText("");
+        String level = (String) courseLevelComboBox17.getSelectedItem();
+        courseLevelComboBox17.setSelectedIndex(0);
+        String type = (String) courseTypeComboBox17.getSelectedItem();
+        courseTypeComboBox17.setSelectedIndex(0);
+        String grade = (String) courseGradeComboBox17.getSelectedItem();
+        courseGradeComboBox17.setSelectedIndex(0);
+        myPlan.removeCourse(name, type, level, grade);
+        courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButton17ActionPerformed
 
     private void clearButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton16ActionPerformed
-        // TODO add your handling code here:
+        String name = courseNameTextField16.getText();
+        courseNameTextField16.setText("");
+        String level = (String) courseLevelComboBox16.getSelectedItem();
+        courseLevelComboBox16.setSelectedIndex(0);
+        String type = (String) courseTypeComboBox16.getSelectedItem();
+        courseTypeComboBox16.setSelectedIndex(0);
+        String grade = (String) courseGradeComboBox16.getSelectedItem();
+        courseGradeComboBox16.setSelectedIndex(0);
+        myPlan.removeCourse(name, type, level, grade);
+        courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButton16ActionPerformed
 
     private void addButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addButton15ActionPerformed
@@ -2834,11 +3074,33 @@ public class MainWindow extends javax.swing.JFrame {
     }//GEN-LAST:event_courseLevelComboBox14ActionPerformed
 
     private void clearButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton15ActionPerformed
-        // TODO add your handling code here:
+        String name = courseNameTextField15.getText();
+        courseNameTextField15.setText("");
+        String level = (String) courseLevelComboBox15.getSelectedItem();
+        courseLevelComboBox15.setSelectedIndex(0);
+        String type = (String) courseTypeComboBox15.getSelectedItem();
+        courseTypeComboBox15.setSelectedIndex(0);
+        String grade = (String) courseGradeComboBox15.getSelectedItem();
+        courseGradeComboBox15.setSelectedIndex(0);
+        myPlan.removeCourse(name, type, level, grade);
+        courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButton15ActionPerformed
 
     private void clearButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton14ActionPerformed
-        // TODO add your handling code here:
+        String name = courseNameTextField14.getText();
+        courseNameTextField14.setText("");
+        String level = (String) courseLevelComboBox14.getSelectedItem();
+        courseLevelComboBox14.setSelectedIndex(0);
+        String type = (String) courseTypeComboBox14.getSelectedItem();
+        courseTypeComboBox14.setSelectedIndex(0);
+        String grade = (String) courseGradeComboBox14.getSelectedItem();
+        courseGradeComboBox14.setSelectedIndex(0);
+        myPlan.removeCourse(name, type, level, grade);
+        courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButton14ActionPerformed
 
     private void courseNameTextField13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_courseNameTextField13ActionPerformed
@@ -2850,11 +3112,33 @@ public class MainWindow extends javax.swing.JFrame {
     }//GEN-LAST:event_courseLevelComboBox25ActionPerformed
 
     private void clearButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton25ActionPerformed
-        // TODO add your handling code here:
+        String name = courseNameTextField25.getText();
+        courseNameTextField25.setText("");
+        String level = (String) courseLevelComboBox25.getSelectedItem();
+        courseLevelComboBox25.setSelectedIndex(0);
+        String type = (String) courseTypeComboBox25.getSelectedItem();
+        courseTypeComboBox25.setSelectedIndex(0);
+        String grade = (String) courseGradeComboBox25.getSelectedItem();
+        courseGradeComboBox25.setSelectedIndex(0);
+        myPlan.removeCourse(name, type, level, grade);
+        courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButton25ActionPerformed
 
     private void clearButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton24ActionPerformed
-        // TODO add your handling code here:
+        String name = courseNameTextField24.getText();
+        courseNameTextField24.setText("");
+        String level = (String) courseLevelComboBox24.getSelectedItem();
+        courseLevelComboBox24.setSelectedIndex(0);
+        String type = (String) courseTypeComboBox24.getSelectedItem();
+        courseTypeComboBox24.setSelectedIndex(0);
+        String grade = (String) courseGradeComboBox24.getSelectedItem();
+        courseGradeComboBox24.setSelectedIndex(0);
+        myPlan.removeCourse(name, type, level, grade);
+        courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
     }//GEN-LAST:event_clearButton24ActionPerformed
 
     private void addButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addButton23ActionPerformed
