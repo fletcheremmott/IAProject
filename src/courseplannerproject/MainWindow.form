@@ -56,21 +56,8 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="courseNameTextField12" min="-2" pref="189" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                          <Component id="courseLevelComboBox12" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="courseTypeComboBox12" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="courseGradeComboBox12" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="addButton12" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="clearButton12" min="-2" max="-2" attributes="0"/>
-                      </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="1" attributes="0">
@@ -120,7 +107,7 @@
                       <Group type="102" alignment="0" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="1" attributes="0">
-                                  <Component id="courseNameTextField2" min="-2" pref="189" max="-2" attributes="0"/>
+                                  <Component id="courseNameTextField3" min="-2" pref="189" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                                   <Component id="courseLevelComboBox3" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
@@ -131,7 +118,7 @@
                                   <Component id="addButton3" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="courseNameTextField3" min="-2" pref="189" max="-2" attributes="0"/>
+                                  <Component id="courseNameTextField2" min="-2" pref="189" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                                   <Component id="courseLevelComboBox2" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
@@ -151,7 +138,7 @@
                       <Group type="102" alignment="0" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="1" attributes="0">
-                                  <Component id="courseNameTextField4" min="-2" pref="189" max="-2" attributes="0"/>
+                                  <Component id="courseNameTextField5" min="-2" pref="189" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                                   <Component id="courseLevelComboBox5" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
@@ -162,7 +149,7 @@
                                   <Component id="addButton5" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="courseNameTextField5" min="-2" pref="189" max="-2" attributes="0"/>
+                                  <Component id="courseNameTextField4" min="-2" pref="189" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                                   <Component id="courseLevelComboBox4" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
@@ -180,238 +167,181 @@
                           </Group>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <Component id="courseNameTextField22" min="-2" pref="189" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                          <Component id="courseLevelComboBox22" min="-2" max="-2" attributes="0"/>
+                          <Component id="courseNameTextField6" min="-2" pref="189" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="courseTypeComboBox20" min="-2" max="-2" attributes="0"/>
+                          <Component id="courseLevelComboBox6" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="courseTypeComboBox6" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="courseGradeComboBox18" min="-2" max="-2" attributes="0"/>
+                          <Component id="courseGradeComboBox6" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="addButton20" min="-2" max="-2" attributes="0"/>
+                          <Component id="addButton6" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="clearButton22" min="-2" max="-2" attributes="0"/>
+                          <Component id="clearButton6" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="courseNameTextField18" min="-2" pref="189" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                  <Component id="courseLevelComboBox18" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="courseNameTextField19" alignment="0" max="32767" attributes="0"/>
+                              <Component id="courseNameTextField16" alignment="0" max="32767" attributes="0"/>
+                              <Component id="courseNameTextField15" alignment="0" max="32767" attributes="0"/>
+                              <Component id="courseNameTextField18" alignment="0" max="32767" attributes="0"/>
+                              <Component id="courseNameTextField17" alignment="0" max="32767" attributes="0"/>
+                              <Component id="courseNameTextField14" alignment="0" max="32767" attributes="0"/>
+                              <Component id="courseNameTextField20" alignment="0" min="-2" pref="189" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="courseLevelComboBox20" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="courseTypeComboBox19" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="courseTypeComboBox20" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                                   <Component id="courseGradeComboBox20" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="addButton19" min="-2" max="-2" attributes="0"/>
+                                  <Component id="addButton20" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="clearButton20" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="courseNameTextField21" min="-2" pref="189" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="courseLevelComboBox15" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                          <Component id="courseTypeComboBox15" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                          <Component id="courseGradeComboBox15" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="addButton15" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="courseLevelComboBox14" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="courseTypeComboBox14" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="courseGradeComboBox14" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="addButton14" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="clearButton14" min="-2" max="-2" attributes="0"/>
+                                      <Component id="clearButton15" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="courseLevelComboBox17" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                          <Component id="courseTypeComboBox17" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                          <Component id="courseGradeComboBox17" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="addButton17" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="courseLevelComboBox16" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                          <Component id="courseTypeComboBox16" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="courseGradeComboBox16" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="addButton16" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="clearButton16" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="clearButton17" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="courseLevelComboBox18" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                  <Component id="courseLevelComboBox21" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                   <Component id="courseTypeComboBox18" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="courseGradeComboBox19" min="-2" max="-2" attributes="0"/>
+                                  <Component id="courseGradeComboBox18" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Component id="addButton18" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="clearButton20" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="clearButton21" alignment="0" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="courseNameTextField23" min="-2" pref="189" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                  <Component id="courseLevelComboBox26" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="courseTypeComboBox23" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="courseGradeComboBox25" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="addButton23" min="-2" max="-2" attributes="0"/>
+                                  <Component id="clearButton18" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="courseNameTextField25" min="-2" pref="189" max="-2" attributes="0"/>
+                                  <Component id="courseLevelComboBox19" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                  <Component id="courseLevelComboBox25" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="courseTypeComboBox21" min="-2" max="-2" attributes="0"/>
+                                  <Component id="courseTypeComboBox19" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                  <Component id="courseGradeComboBox19" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="courseGradeComboBox24" min="-2" max="-2" attributes="0"/>
+                                  <Component id="addButton19" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="addButton21" min="-2" max="-2" attributes="0"/>
+                                  <Component id="clearButton19" min="-2" max="-2" attributes="0"/>
                               </Group>
-                          </Group>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="clearButton24" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="clearButton25" alignment="0" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="courseNameTextField26" min="-2" pref="189" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                  <Component id="courseLevelComboBox17" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="courseTypeComboBox27" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="courseGradeComboBox15" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="addButton27" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="courseNameTextField14" min="-2" pref="189" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                  <Component id="courseLevelComboBox14" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="courseTypeComboBox26" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="courseGradeComboBox14" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="addButton26" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="clearButton14" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="clearButton15" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
-                  <EmptySpace pref="84" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <Component id="courseNameTextField24" min="-2" pref="189" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                          <Component id="courseLevelComboBox24" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="courseTypeComboBox22" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="courseGradeComboBox23" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="addButton22" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="clearButton23" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="courseNameTextField17" min="-2" pref="189" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                  <Component id="courseLevelComboBox23" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="courseTypeComboBox17" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="courseGradeComboBox22" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="addButton17" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="courseNameTextField24" min="-2" pref="189" max="-2" attributes="0"/>
+                                      <Component id="courseNameTextField26" min="-2" pref="189" max="-2" attributes="0"/>
+                                      <Component id="courseNameTextField25" min="-2" pref="189" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="courseLevelComboBox26" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                                  <Component id="courseTypeComboBox26" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="courseGradeComboBox26" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="addButton26" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="clearButton26" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="courseLevelComboBox25" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                  <Component id="courseTypeComboBox25" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="courseGradeComboBox25" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                                  <Component id="addButton25" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="clearButton25" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="courseLevelComboBox24" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="courseTypeComboBox24" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                          <Component id="courseGradeComboBox24" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="addButton24" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="clearButton24" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="courseNameTextField20" min="-2" pref="189" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                  <Component id="courseLevelComboBox19" min="-2" max="-2" attributes="0"/>
+                                  <Component id="courseNameTextField7" min="-2" pref="189" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="courseTypeComboBox16" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="courseGradeComboBox21" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="addButton16" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="clearButton18" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="clearButton19" alignment="0" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="courseNameTextField19" min="-2" pref="189" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                  <Component id="courseLevelComboBox15" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="courseTypeComboBox25" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="courseGradeComboBox27" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="addButton25" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="courseNameTextField27" min="-2" pref="189" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                  <Component id="courseLevelComboBox27" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="courseTypeComboBox24" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="courseGradeComboBox26" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="addButton24" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="clearButton26" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="clearButton27" alignment="0" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="courseNameTextField15" min="-2" pref="189" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                  <Component id="courseLevelComboBox20" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="courseTypeComboBox15" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="courseGradeComboBox17" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="addButton15" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="courseNameTextField16" min="-2" pref="189" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                  <Component id="courseLevelComboBox16" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="courseTypeComboBox14" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="courseGradeComboBox16" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="addButton14" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="clearButton16" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="clearButton17" alignment="0" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="courseNameTextField13" min="-2" pref="189" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                          <Component id="courseLevelComboBox13" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="courseTypeComboBox13" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="courseGradeComboBox13" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="addButton13" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="clearButton13" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="courseNameTextField6" min="-2" pref="189" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                                   <Component id="courseLevelComboBox7" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                   <Component id="courseTypeComboBox7" min="-2" max="-2" attributes="0"/>
@@ -419,101 +349,177 @@
                                   <Component id="courseGradeComboBox7" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Component id="addButton7" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="clearButton7" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="courseNameTextField7" min="-2" pref="189" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                  <Component id="courseLevelComboBox6" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="courseTypeComboBox6" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="courseNameTextField9" min="-2" pref="189" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="courseLevelComboBox9" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="courseTypeComboBox9" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="courseGradeComboBox9" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="addButton9" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="courseNameTextField8" min="-2" pref="189" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="courseLevelComboBox8" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="courseTypeComboBox8" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="courseGradeComboBox8" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="addButton8" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="courseGradeComboBox6" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="addButton6" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="clearButton8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="clearButton9" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
-                          </Group>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="clearButton6" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="clearButton7" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="courseNameTextField11" min="-2" pref="189" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="courseLevelComboBox11" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="courseTypeComboBox11" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="courseGradeComboBox11" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="addButton11" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="courseNameTextField10" min="-2" pref="189" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="courseLevelComboBox10" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="courseTypeComboBox10" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="courseGradeComboBox10" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="addButton10" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="clearButton10" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="clearButton11" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="courseNameTextField27" min="-2" pref="189" max="-2" attributes="0"/>
+                                      <Component id="courseNameTextField23" alignment="1" min="-2" pref="189" max="-2" attributes="0"/>
+                                      <Component id="courseNameTextField22" alignment="1" min="-2" pref="189" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                          <Component id="courseLevelComboBox22" min="-2" max="-2" attributes="0"/>
+                                          <Component id="courseLevelComboBox23" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="courseLevelComboBox27" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="courseTypeComboBox27" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                          <Component id="courseGradeComboBox27" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="addButton27" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="clearButton27" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="courseTypeComboBox23" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                          <Component id="courseGradeComboBox23" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                          <Component id="addButton23" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="clearButton23" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="courseTypeComboBox22" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                          <Component id="courseGradeComboBox22" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                          <Component id="addButton22" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="clearButton22" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="courseNameTextField21" min="-2" pref="189" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="courseLevelComboBox21" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="courseTypeComboBox21" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                  <Component id="courseGradeComboBox21" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                  <Component id="addButton21" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="clearButton21" min="-2" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
                       </Group>
-                      <Group type="102" alignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="courseNameTextField13" min="-2" pref="189" max="-2" attributes="0"/>
+                              <Component id="courseNameTextField12" min="-2" pref="189" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="courseNameTextField8" min="-2" pref="189" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                  <Component id="courseLevelComboBox9" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="courseLevelComboBox12" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="courseTypeComboBox9" min="-2" max="-2" attributes="0"/>
+                                  <Component id="courseTypeComboBox12" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="courseGradeComboBox9" min="-2" max="-2" attributes="0"/>
+                                  <Component id="courseGradeComboBox12" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="addButton9" min="-2" max="-2" attributes="0"/>
+                                  <Component id="addButton12" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="clearButton12" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="courseNameTextField9" min="-2" pref="189" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                  <Component id="courseLevelComboBox8" min="-2" max="-2" attributes="0"/>
+                                  <Component id="courseLevelComboBox13" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="courseTypeComboBox8" min="-2" max="-2" attributes="0"/>
+                                  <Component id="courseTypeComboBox13" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="courseGradeComboBox8" min="-2" max="-2" attributes="0"/>
+                                  <Component id="courseGradeComboBox13" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="addButton8" min="-2" max="-2" attributes="0"/>
+                                  <Component id="addButton13" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="clearButton13" min="-2" max="-2" attributes="0"/>
                               </Group>
-                          </Group>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="clearButton8" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="clearButton9" alignment="0" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="courseNameTextField10" min="-2" pref="189" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                  <Component id="courseLevelComboBox11" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="courseTypeComboBox11" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="courseGradeComboBox11" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="addButton11" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="courseNameTextField11" min="-2" pref="189" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                  <Component id="courseLevelComboBox10" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="courseTypeComboBox10" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="courseGradeComboBox10" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="addButton10" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="clearButton10" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="clearButton11" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
-                  <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
-              </Group>
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-                  <Component id="nextButton" min="-2" pref="266" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="nextButton" min="-2" pref="335" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="540" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="courseTypeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -543,7 +549,7 @@
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="courseLevelComboBox2" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseNameTextField3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseNameTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="courseGradeComboBox2" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="addButton2" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="courseTypeComboBox2" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -552,7 +558,7 @@
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="courseLevelComboBox3" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseNameTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseNameTextField3" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="courseGradeComboBox3" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="courseTypeComboBox3" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="addButton3" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -561,7 +567,7 @@
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="courseLevelComboBox4" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseNameTextField5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseNameTextField4" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="courseGradeComboBox4" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="addButton4" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="courseTypeComboBox4" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -570,233 +576,242 @@
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="courseLevelComboBox5" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseNameTextField4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseNameTextField5" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="courseGradeComboBox5" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="courseTypeComboBox5" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="addButton5" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="clearButton5" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="courseLevelComboBox12" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseNameTextField12" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseGradeComboBox12" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseTypeComboBox12" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="addButton12" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="clearButton12" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="courseLevelComboBox6" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseNameTextField7" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseGradeComboBox6" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="addButton6" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseTypeComboBox6" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="clearButton6" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="courseLevelComboBox7" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseNameTextField6" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="courseGradeComboBox7" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="courseTypeComboBox7" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="addButton7" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="clearButton7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseNameTextField7" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="1" attributes="0">
                               <Group type="102" alignment="1" attributes="0">
                                   <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="courseLevelComboBox8" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="courseNameTextField9" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="courseGradeComboBox8" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="addButton8" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="courseTypeComboBox8" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="clearButton8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="courseNameTextField8" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="courseLevelComboBox9" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="courseNameTextField8" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="courseGradeComboBox9" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="courseTypeComboBox9" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="addButton9" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="clearButton9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="courseNameTextField9" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace min="70" pref="70" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="1" attributes="0">
                                   <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="courseLevelComboBox10" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="courseNameTextField11" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="courseGradeComboBox10" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="addButton10" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="courseTypeComboBox10" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="clearButton10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="courseNameTextField10" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="courseLevelComboBox11" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="courseNameTextField10" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="courseGradeComboBox11" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="courseTypeComboBox11" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="addButton11" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="clearButton11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="courseNameTextField11" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="courseLevelComboBox13" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseNameTextField13" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseGradeComboBox13" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseTypeComboBox13" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="addButton13" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="clearButton13" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseLevelComboBox12" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseGradeComboBox12" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseTypeComboBox12" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="addButton12" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="clearButton12" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseNameTextField12" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
-                  <EmptySpace pref="99" max="32767" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="courseLevelComboBox6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="courseGradeComboBox6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="addButton6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="courseTypeComboBox6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="clearButton6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="courseNameTextField6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="courseNameTextField13" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="courseLevelComboBox13" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="courseTypeComboBox13" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="courseGradeComboBox13" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="addButton13" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="clearButton13" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="27" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="courseLevelComboBox21" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseGradeComboBox21" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="courseNameTextField21" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseGradeComboBox19" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="addButton18" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseTypeComboBox18" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="clearButton20" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="courseLevelComboBox18" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseNameTextField18" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseGradeComboBox20" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseTypeComboBox19" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="addButton19" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseLevelComboBox21" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseTypeComboBox21" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="addButton21" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="clearButton21" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="courseLevelComboBox25" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseNameTextField25" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseGradeComboBox24" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="addButton21" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseTypeComboBox21" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="clearButton24" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseGradeComboBox22" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseNameTextField22" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseLevelComboBox22" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseTypeComboBox22" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="addButton22" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="clearButton22" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="courseLevelComboBox26" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="courseNameTextField23" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseGradeComboBox25" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseLevelComboBox23" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="courseTypeComboBox23" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseGradeComboBox23" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="addButton23" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="clearButton16" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="clearButton23" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="courseNameTextField24" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseLevelComboBox24" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseTypeComboBox24" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseGradeComboBox24" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="addButton24" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="clearButton24" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="courseNameTextField25" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseLevelComboBox25" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseTypeComboBox25" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseGradeComboBox25" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="addButton25" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="clearButton25" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="courseLevelComboBox14" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseNameTextField14" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseGradeComboBox14" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="addButton26" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseTypeComboBox26" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="clearButton14" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="courseLevelComboBox17" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="courseNameTextField26" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseGradeComboBox15" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseTypeComboBox27" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="addButton27" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="clearButton15" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseLevelComboBox26" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseTypeComboBox26" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseGradeComboBox26" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="addButton26" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="clearButton26" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="courseLevelComboBox22" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseNameTextField22" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseGradeComboBox18" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseTypeComboBox20" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="addButton20" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="clearButton22" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseNameTextField27" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseLevelComboBox27" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseTypeComboBox27" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseGradeComboBox27" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="addButton27" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="clearButton27" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <Group type="102" attributes="0">
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="courseLevelComboBox19" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseNameTextField20" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseGradeComboBox21" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="addButton16" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseTypeComboBox16" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="clearButton18" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="courseLevelComboBox23" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseNameTextField17" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseGradeComboBox22" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseTypeComboBox17" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="addButton17" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="clearButton19" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="1" attributes="0">
-                              <Group type="102" alignment="1" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="courseLevelComboBox27" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="courseNameTextField27" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="courseGradeComboBox26" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="addButton24" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="courseTypeComboBox24" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="clearButton26" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="courseLevelComboBox15" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="courseNameTextField19" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="courseGradeComboBox27" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="courseTypeComboBox25" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="addButton25" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="clearButton27" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="70" pref="70" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="courseLevelComboBox16" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="courseNameTextField16" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="courseGradeComboBox16" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="addButton14" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="courseTypeComboBox14" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="clearButton16" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="courseLevelComboBox20" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="courseNameTextField15" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="courseGradeComboBox17" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="courseTypeComboBox15" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="courseGradeComboBox15" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="addButton15" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="clearButton15" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="courseTypeComboBox16" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="courseGradeComboBox16" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="addButton16" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="courseLevelComboBox17" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="courseTypeComboBox17" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="courseGradeComboBox17" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="addButton17" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="clearButton17" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="courseNameTextField14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="courseLevelComboBox14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="courseTypeComboBox14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="courseGradeComboBox14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="addButton14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="clearButton14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="courseNameTextField15" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="courseLevelComboBox15" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="courseTypeComboBox15" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="courseNameTextField16" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="courseLevelComboBox16" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="courseNameTextField17" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="courseNameTextField18" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="courseLevelComboBox18" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="courseTypeComboBox18" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="courseGradeComboBox18" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="addButton18" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="clearButton18" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="courseNameTextField19" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="courseLevelComboBox19" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="courseTypeComboBox19" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="courseGradeComboBox19" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="addButton19" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="clearButton19" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
                           </Group>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="courseLevelComboBox24" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseNameTextField24" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseGradeComboBox23" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="courseTypeComboBox22" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="addButton22" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="clearButton23" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseTypeComboBox20" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="addButton20" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseNameTextField20" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseLevelComboBox20" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="courseGradeComboBox20" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="clearButton20" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
+                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="nextButton" min="-2" pref="63" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -1009,9 +1024,9 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clearButton1ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JTextField" name="courseNameTextField2">
+        <Component class="javax.swing.JTextField" name="courseNameTextField3">
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="courseNameTextField2ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="courseNameTextField3ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="addButton2">
@@ -1108,9 +1123,9 @@
             <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
           </AuxValues>
         </Component>
-        <Component class="javax.swing.JTextField" name="courseNameTextField3">
+        <Component class="javax.swing.JTextField" name="courseNameTextField2">
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="courseNameTextField3ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="courseNameTextField2ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JComboBox" name="courseGradeComboBox2">
@@ -1188,9 +1203,9 @@
             <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
           </AuxValues>
         </Component>
-        <Component class="javax.swing.JTextField" name="courseNameTextField4">
+        <Component class="javax.swing.JTextField" name="courseNameTextField5">
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="courseNameTextField4ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="courseNameTextField5ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="addButton4">
@@ -1287,9 +1302,9 @@
             <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
           </AuxValues>
         </Component>
-        <Component class="javax.swing.JTextField" name="courseNameTextField5">
+        <Component class="javax.swing.JTextField" name="courseNameTextField4">
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="courseNameTextField5ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="courseNameTextField4ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JComboBox" name="courseGradeComboBox4">
