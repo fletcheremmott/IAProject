@@ -1679,8 +1679,8 @@ public class MainWindow extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, addCoursePanelLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(nextButton, javax.swing.GroupLayout.PREFERRED_SIZE, 335, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(540, 540, 540))
+                .addComponent(nextButton, javax.swing.GroupLayout.PREFERRED_SIZE, 332, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(542, 542, 542))
         );
         addCoursePanelLayout.setVerticalGroup(
             addCoursePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1930,8 +1930,9 @@ public class MainWindow extends javax.swing.JFrame {
                             .addComponent(courseGradeComboBox20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(clearButton20))
                         .addGap(6, 6, 6)))
-                .addComponent(nextButton, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(12, 12, 12))
+                .addGap(9, 9, 9)
+                .addComponent(nextButton, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
 
         courseListLabel.setText("                              Course List");
@@ -1959,10 +1960,6 @@ public class MainWindow extends javax.swing.JFrame {
         courseListPanelLayout.setHorizontalGroup(
             courseListPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, courseListPanelLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(previousButton, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(319, 319, 319))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, courseListPanelLayout.createSequentialGroup()
                 .addGroup(courseListPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(courseListPanelLayout.createSequentialGroup()
                         .addGap(15, 15, 15)
@@ -1976,7 +1973,8 @@ public class MainWindow extends javax.swing.JFrame {
                         .addGap(42, 42, 42)))
                 .addGroup(courseListPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(courseTallyLabel)
-                    .addComponent(courseTallyTextArea, javax.swing.GroupLayout.PREFERRED_SIZE, 210, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(courseTallyTextArea, javax.swing.GroupLayout.PREFERRED_SIZE, 210, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(previousButton, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(364, 364, 364))
         );
         courseListPanelLayout.setVerticalGroup(
@@ -1991,10 +1989,10 @@ public class MainWindow extends javax.swing.JFrame {
                     .addComponent(courseListTextArea, javax.swing.GroupLayout.DEFAULT_SIZE, 341, Short.MAX_VALUE)
                     .addComponent(courseTallyTextArea))
                 .addGap(18, 18, 18)
-                .addGroup(courseListPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(courseListPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(previousButton, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(courseGPATextArea, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(33, Short.MAX_VALUE))
+                .addContainerGap(43, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
