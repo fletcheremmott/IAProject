@@ -53,17 +53,5 @@ public class Course {
         String s = "";
         s += ("Course Name: "+courseName+" Course Level: "+courseLevel+" Course Type: "+courseType+" Course Grade: "+courseGrade+"\n");
         return s;
-    }
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+    }             
 }
