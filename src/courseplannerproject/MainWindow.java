@@ -4,6 +4,9 @@
  */
 package courseplannerproject;
 
+import javax.swing.JComboBox;
+import javax.swing.JTextField;
+
 /**
  *
  * @author fletc
@@ -203,6 +206,7 @@ public class MainWindow extends javax.swing.JFrame {
         courseTypeComboBox26 = new javax.swing.JComboBox<>();
         courseTypeComboBox27 = new javax.swing.JComboBox<>();
         addButton27 = new javax.swing.JButton();
+        clearAllButton = new javax.swing.JButton();
         courseListPanel = new javax.swing.JPanel();
         courseListLabel = new javax.swing.JLabel();
         courseListTextArea = new javax.swing.JTextArea();
@@ -1296,6 +1300,13 @@ public class MainWindow extends javax.swing.JFrame {
             }
         });
 
+        clearAllButton.setText("Clear All");
+        clearAllButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                clearAllButtonActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout addCoursePanelLayout = new javax.swing.GroupLayout(addCoursePanel);
         addCoursePanel.setLayout(addCoursePanelLayout);
         addCoursePanelLayout.setHorizontalGroup(
@@ -1680,7 +1691,9 @@ public class MainWindow extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, addCoursePanelLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(nextButton, javax.swing.GroupLayout.PREFERRED_SIZE, 332, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(542, 542, 542))
+                .addGap(227, 227, 227)
+                .addComponent(clearAllButton)
+                .addGap(240, 240, 240))
         );
         addCoursePanelLayout.setVerticalGroup(
             addCoursePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1931,7 +1944,9 @@ public class MainWindow extends javax.swing.JFrame {
                             .addComponent(clearButton20))
                         .addGap(6, 6, 6)))
                 .addGap(9, 9, 9)
-                .addComponent(nextButton, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(addCoursePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(nextButton, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(clearAllButton))
                 .addContainerGap())
         );
 
@@ -2020,6 +2035,22 @@ public class MainWindow extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    public void clearAll(JTextField courseName, JComboBox courseLevel, JComboBox courseType, JComboBox courseGrade)
+    {
+        String name = courseName.getText();
+        courseName.setText("");
+        String level = (String) courseLevel.getSelectedItem();
+        courseLevel.setSelectedIndex(0);
+        String type = (String) courseType.getSelectedItem();
+        courseType.setSelectedIndex(0);
+        String grade = (String) courseGrade.getSelectedItem();
+        courseGrade.setSelectedIndex(0);
+        myPlan.removeCourse(name, type, level, grade);
+        courseListTextArea.setText(myPlan.toString());
+        courseTallyTextArea.setText(myPlan.tallyToString());
+        courseGPATextArea.setText(myPlan.gpaCalculation());
+    }
 
     private void courseLevelComboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_courseLevelComboBoxActionPerformed
         // TODO add your handling code here:
@@ -3175,6 +3206,39 @@ public class MainWindow extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_courseGradeComboBox23ActionPerformed
 
+    private void clearAllButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearAllButtonActionPerformed
+        // TODO add your handling code here:
+        clearAll(courseNameTextField, courseLevelComboBox, courseTypeComboBox, courseGradeComboBox);
+        clearAll(courseNameTextField1, courseLevelComboBox1, courseTypeComboBox1, courseGradeComboBox1);
+        clearAll(courseNameTextField2, courseLevelComboBox2, courseTypeComboBox2, courseGradeComboBox2);
+        clearAll(courseNameTextField3, courseLevelComboBox3, courseTypeComboBox3, courseGradeComboBox3);
+        clearAll(courseNameTextField4, courseLevelComboBox4, courseTypeComboBox4, courseGradeComboBox4);
+        clearAll(courseNameTextField5, courseLevelComboBox5, courseTypeComboBox5, courseGradeComboBox5);
+        clearAll(courseNameTextField6, courseLevelComboBox6, courseTypeComboBox6, courseGradeComboBox6);
+        clearAll(courseNameTextField7, courseLevelComboBox7, courseTypeComboBox7, courseGradeComboBox7);
+        clearAll(courseNameTextField8, courseLevelComboBox8, courseTypeComboBox8, courseGradeComboBox8);
+        clearAll(courseNameTextField9, courseLevelComboBox9, courseTypeComboBox9, courseGradeComboBox9);
+        clearAll(courseNameTextField10, courseLevelComboBox10, courseTypeComboBox10, courseGradeComboBox10);
+        clearAll(courseNameTextField11, courseLevelComboBox11, courseTypeComboBox11, courseGradeComboBox11);
+        clearAll(courseNameTextField12, courseLevelComboBox12, courseTypeComboBox12, courseGradeComboBox12);
+        clearAll(courseNameTextField13, courseLevelComboBox13, courseTypeComboBox13, courseGradeComboBox13);
+        clearAll(courseNameTextField14, courseLevelComboBox14, courseTypeComboBox14, courseGradeComboBox14);
+        clearAll(courseNameTextField15, courseLevelComboBox15, courseTypeComboBox15, courseGradeComboBox15);
+        clearAll(courseNameTextField16, courseLevelComboBox16, courseTypeComboBox16, courseGradeComboBox16);
+        clearAll(courseNameTextField17, courseLevelComboBox17, courseTypeComboBox17, courseGradeComboBox17);
+        clearAll(courseNameTextField18, courseLevelComboBox18, courseTypeComboBox18, courseGradeComboBox18);
+        clearAll(courseNameTextField19, courseLevelComboBox19, courseTypeComboBox19, courseGradeComboBox19);
+        clearAll(courseNameTextField20, courseLevelComboBox20, courseTypeComboBox20, courseGradeComboBox20);
+        clearAll(courseNameTextField21, courseLevelComboBox21, courseTypeComboBox21, courseGradeComboBox21);
+        clearAll(courseNameTextField22, courseLevelComboBox22, courseTypeComboBox22, courseGradeComboBox22);
+        clearAll(courseNameTextField23, courseLevelComboBox23, courseTypeComboBox23, courseGradeComboBox23);
+        clearAll(courseNameTextField24, courseLevelComboBox24, courseTypeComboBox24, courseGradeComboBox24);
+        clearAll(courseNameTextField25, courseLevelComboBox25, courseTypeComboBox25, courseGradeComboBox25);
+        clearAll(courseNameTextField26, courseLevelComboBox26, courseTypeComboBox26, courseGradeComboBox26);
+        clearAll(courseNameTextField27, courseLevelComboBox27, courseTypeComboBox27, courseGradeComboBox27);
+
+    }//GEN-LAST:event_clearAllButtonActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -3240,6 +3304,7 @@ public class MainWindow extends javax.swing.JFrame {
     private javax.swing.JButton addButton8;
     private javax.swing.JButton addButton9;
     private javax.swing.JPanel addCoursePanel;
+    private javax.swing.JButton clearAllButton;
     private javax.swing.JButton clearButton;
     private javax.swing.JButton clearButton1;
     private javax.swing.JButton clearButton10;

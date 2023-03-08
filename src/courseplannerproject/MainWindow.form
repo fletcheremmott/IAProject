@@ -512,7 +512,9 @@
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace max="32767" attributes="0"/>
                   <Component id="nextButton" min="-2" pref="332" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="542" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="227" max="-2" attributes="0"/>
+                  <Component id="clearAllButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="240" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -809,7 +811,10 @@
                       </Group>
                   </Group>
                   <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
-                  <Component id="nextButton" min="-2" pref="54" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="nextButton" alignment="3" min="-2" pref="54" max="-2" attributes="0"/>
+                      <Component id="clearAllButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -3342,6 +3347,14 @@
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addButton27ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="clearAllButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Clear All"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clearAllButtonActionPerformed"/>
           </Events>
         </Component>
       </SubComponents>
